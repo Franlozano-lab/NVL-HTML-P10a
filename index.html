@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario</title>
+        <link href="https://miservidor.php">
+
+    </head>
+    
+      <form action="miservidor.php" method="post">
+
+          <div>
+        <label for="Postal">Código Postál:</label>
+        <input id="Postal" type="text" name="Postal">
+          </div>
+
+          <div>
+              <label for="satisfaccion">Nivel de satisfaccion</label>
+              <imput id="satisfaccion" type="text">
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                 </select>
+          </div>
+          <div>
+            <label for="Email">Email:</label>
+            <input id="Email" type="text" name="Postal">
+              </div>
+          <div>
+              <label for="positivos" type="text">Puntos positivos del producto</label>
+              <textarea id="positivos"></textarea>
+          </div>
+          <div>
+          <label for="negativos" type="text">Puntos negativos del producto</label>
+          <textarea id="negativos"></textarea>
+          </div>
+          <div>
+            <label for=”UX”>Experiencia de usuario:</label>       
+            <select id=”UX”>
+              <option value=”Ex”>Excelente</option>
+              <option value=”B”>Buena</option>
+              <option value=”R”>Regular</option>
+              <option value=”M”>Mala</option>
+            </select>
+        </div>
+        <div>
+            <label for=”Vel”>Velocidad de carga:</label>       
+            <select id=”Vel”>
+              <option value=”Ex”>Excelente</option>
+              <option value=”B”>Buena</option>
+              <option value=”R”>Regular</option>
+              <option value=”M”>Mala</option>
+            </select>
+        </div>
+        <div>
+            <label for=”conect”>Conectividad:</label>
+            <select>
+                <input type="radio" value="Ex">Excelente
+                <input type="radio" value="B">Buena
+                <input type="radio" value="R">Regular
+                <input type="radio" value="M">Mala
+                </select>
+        </div>  
+
+        <div>
+            <input type="submit" value="Enviar">
+              </div>
+        
+   </form> 
+</html>
+
+
+
+
+
